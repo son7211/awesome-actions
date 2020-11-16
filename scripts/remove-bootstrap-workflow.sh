@@ -5,7 +5,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $DIR/git-setup.sh
 git_setup
 
-// git rm $DIR/../.github/workflows/bootstrap.yml
+# git rm $DIR/../.github/workflows/bootstrap.yml
 git commit -m "Halt Removing bootstrap workflow after bootstrap"
 
 git push origin HEAD:master
